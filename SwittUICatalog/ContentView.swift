@@ -8,17 +8,33 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.horizontalSizeClass) private var horizontalSizeClass
+    @Environment(\.verticalSizeClass) private var verticalSizeClass
+   
+    @Environment(\.navigate) private var navigate
+   
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        List {
+            ForEach(Route.allCases, id: \.hashValue) { route in
+                Button(action: {
+                    navigate(route)
+                }, label: {
+                    Text("navigation \(route)")
+                })
+            }
         }
-        .padding()
+        
+        
+        Text("horizontalSizeClass::: \(horizontalSizeClass)")
+            .padding()
+        Text("verticalSizeClass::: \(verticalSizeClass)")
+            .padding()
+       
     }
 }
 
 #Preview {
     ContentView()
 }
+
+

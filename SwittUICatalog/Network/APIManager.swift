@@ -43,7 +43,7 @@ final class APIManager {
         do {
             products = try await manager.request(url: "https://fakestoreapi.com/products")
             print(products)
-        }catch {
+        } catch {
             print("Fetch Product error:", error)
         }
     }

@@ -46,7 +46,6 @@ struct ProfileScreen: View {
         .task {
             await viewModel.getUser()
         }
-        .ignoresSafeArea()
     }
 }
 

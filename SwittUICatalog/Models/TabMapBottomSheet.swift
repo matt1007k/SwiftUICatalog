@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-enum TabMapSheet: String, CaseIterable {
+enum TabMapBottomSheet: String, CaseIterable {
     case people = "People"
     case devices = "Devices"
     case items = "Items"

@@ -7,12 +7,8 @@
 
 import SwiftUI
 
-struct GitHubUser: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-#Preview {
-    GitHubUser()
+struct GitHubUser: Codable {
+    let login: String
+    let avatarUrl: String
+    let bio: String
 }
