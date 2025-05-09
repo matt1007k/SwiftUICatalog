@@ -31,12 +31,12 @@ struct RatingView: View {
             }
             .font(.largeTitle)
             .disabled(rating == 0)
-            
+
             Text(String(format: "%02d", rating))
                 .font(.system(size: 50))
                 .fontWeight(.bold)
                 .contentTransition(.numericText(value: Double(rating)))
-            
+
             Button("", systemImage: "plus.circle") {
                 withAnimation {
                     rating += 1
@@ -44,7 +44,7 @@ struct RatingView: View {
             }
             .font(.largeTitle)
             .disabled(rating == 15)
-            
+
         }
     }
 }

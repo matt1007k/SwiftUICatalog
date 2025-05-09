@@ -25,9 +25,9 @@ struct ContentView: View {
         }
         
         
-        Text("horizontalSizeClass::: \(horizontalSizeClass)")
+        Text("horizontalSizeClass::: \(horizontalSizeClass?.hashValue ?? -1)")
             .padding()
-        Text("verticalSizeClass::: \(verticalSizeClass)")
+        Text("verticalSizeClass::: \(verticalSizeClass?.hashValue)")
             .padding()
        
     }

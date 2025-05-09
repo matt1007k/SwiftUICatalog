@@ -23,9 +23,14 @@
 		24404AC42C4E047E00095AEA /* SwittUICatalogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24404AC32C4E047E00095AEA /* SwittUICatalogUITests.swift */; };
 		24404AC62C4E047E00095AEA /* SwittUICatalogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24404AC52C4E047E00095AEA /* SwittUICatalogUITestsLaunchTests.swift */; };
 		24404AD32C4E049900095AEA /* Example1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24404AD22C4E049900095AEA /* Example1.swift */; };
+		2444F7F52D47EB470046FA5B /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2444F7F42D47EB470046FA5B /* ChartsView.swift */; };
 		244E15E52C8EB466002CECA0 /* TabMapBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244E15E42C8EB466002CECA0 /* TabMapBottomSheet.swift */; };
 		244E15E72C8EB57C002CECA0 /* MapBottonSheetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244E15E62C8EB57C002CECA0 /* MapBottonSheetScreen.swift */; };
 		244E15E92C8EB85B002CECA0 /* BottonSheetHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244E15E82C8EB85B002CECA0 /* BottonSheetHelper.swift */; };
+		24A9A6EB2DA87D3400C2ADF2 /* TextDecorationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A9A6EA2DA87D3400C2ADF2 /* TextDecorationView.swift */; };
+		24B504B42D0BE37B00B52918 /* CustomTabBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B504B32D0BE36C00B52918 /* CustomTabBottom.swift */; };
+		24B504B62D0BE52A00B52918 /* DrawAreaMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B504B52D0BE51100B52918 /* DrawAreaMapView.swift */; };
+		24C6613D2D061D9800F3DC8E /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C6613C2D061D9800F3DC8E /* SwiftUIView.swift */; };
 		24E679DE2C765CF000D49141 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E679DD2C765CF000D49141 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -66,9 +71,14 @@
 		24404AC32C4E047E00095AEA /* SwittUICatalogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwittUICatalogUITests.swift; sourceTree = "<group>"; };
 		24404AC52C4E047E00095AEA /* SwittUICatalogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwittUICatalogUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		24404AD22C4E049900095AEA /* Example1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example1.swift; sourceTree = "<group>"; };
+		2444F7F42D47EB470046FA5B /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
 		244E15E42C8EB466002CECA0 /* TabMapBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMapBottomSheet.swift; sourceTree = "<group>"; };
 		244E15E62C8EB57C002CECA0 /* MapBottonSheetScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBottonSheetScreen.swift; sourceTree = "<group>"; };
 		244E15E82C8EB85B002CECA0 /* BottonSheetHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottonSheetHelper.swift; sourceTree = "<group>"; };
+		24A9A6EA2DA87D3400C2ADF2 /* TextDecorationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDecorationView.swift; sourceTree = "<group>"; };
+		24B504B32D0BE36C00B52918 /* CustomTabBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBottom.swift; sourceTree = "<group>"; };
+		24B504B52D0BE51100B52918 /* DrawAreaMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawAreaMapView.swift; sourceTree = "<group>"; };
+		24C6613C2D061D9800F3DC8E /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		24E679DD2C765CF000D49141 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,12 +128,17 @@
 		243005882C6FFD3800BABEC0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				24B504B52D0BE51100B52918 /* DrawAreaMapView.swift */,
+				24B504B32D0BE36C00B52918 /* CustomTabBottom.swift */,
 				242101472C69C82B0098A661 /* ProfileScreen.swift */,
 				242325B82C7ECBE200B641A2 /* ButtonScreen.swift */,
 				242325BA2C7ECC1D00B641A2 /* ScrollElementScreen.swift */,
 				242325BC2C7ECF3E00B641A2 /* AnimationScreen.swift */,
 				244E15E62C8EB57C002CECA0 /* MapBottonSheetScreen.swift */,
 				24318BF02C93C17B00091E72 /* FormValidationScreen.swift */,
+				24C6613C2D061D9800F3DC8E /* SwiftUIView.swift */,
+				2444F7F42D47EB470046FA5B /* ChartsView.swift */,
+				24A9A6EA2DA87D3400C2ADF2 /* TextDecorationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -346,8 +361,11 @@
 			files = (
 				242101462C69C1A00098A661 /* ProfileViewModel.swift in Sources */,
 				244E15E92C8EB85B002CECA0 /* BottonSheetHelper.swift in Sources */,
+				24C6613D2D061D9800F3DC8E /* SwiftUIView.swift in Sources */,
+				24A9A6EB2DA87D3400C2ADF2 /* TextDecorationView.swift in Sources */,
 				242101482C69C82B0098A661 /* ProfileScreen.swift in Sources */,
 				2421013F2C69BE7F0098A661 /* NetworkManager.swift in Sources */,
+				2444F7F52D47EB470046FA5B /* ChartsView.swift in Sources */,
 				24404AAB2C4E047D00095AEA /* ContentView.swift in Sources */,
 				244E15E52C8EB466002CECA0 /* TabMapBottomSheet.swift in Sources */,
 				24404AD32C4E049900095AEA /* Example1.swift in Sources */,
@@ -359,6 +377,8 @@
 				242325B92C7ECBE200B641A2 /* ButtonScreen.swift in Sources */,
 				24E679DE2C765CF000D49141 /* APIManager.swift in Sources */,
 				244E15E72C8EB57C002CECA0 /* MapBottonSheetScreen.swift in Sources */,
+				24B504B62D0BE52A00B52918 /* DrawAreaMapView.swift in Sources */,
+				24B504B42D0BE37B00B52918 /* CustomTabBottom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
